@@ -1,0 +1,123 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 100px)  and (max-width: 450px){
+    body > div > #main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section > .sign-up {
+        padding: 10px;
+        margin-top: 30px;
+    }
+    #main > #aside, #header, #sales {
+        width: 100%;
+        display: flex!important;
+        flex-direction: column!important;
+        justify-content: center!important;
+        align-items: center!important;
+        padding: 0;
+    }
+    #main > section {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    #span {
+        display: block;
+        padding: 5px 0px;
+        width: 100%;
+    }
+} 
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 450px) and (max-width: 1130px){
+    section > .sign-up {
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    #span {
+        display: block;
+        padding: 5px 0px;
+        width: 100%;
+    }
+} 
+
+main {
+    display: flex;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    /* padding-left: 5%; */
+}
+aside {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 10px;
+    width: 53%;
+}
+h1 {
+    font-size: 45px;
+}
+.sales {
+    color: #F2C5CF;
+    font-size: 17px;
+    padding-right: 15%;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #00DC8F;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+.div-form {
+    border-radius: 10px;
+    box-shadow: 0 10px 8px #D8555C;
+    background-color: #FDFDFD;
+    padding: 20px;
+}
+
+.sign-up {
+    border-radius: 10px;
+    box-shadow: 0 10px 8px #D55665;
+    background-color: #7F00CF;
+    color: #E1A5F0;
+    padding: 10px 130px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.span {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    padding: 15px 0;
+}
+
+strong {
+    color: #D55665;
+}
